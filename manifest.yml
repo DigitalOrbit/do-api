@@ -1,0 +1,8 @@
+---
+applications:
+- name: do-rest-api
+  memory: 256M
+  instances: 1
+  host: do-service
+  domain: digital-orbit.net
+  path: build/libs/gs-rest-service-0.1.0.jar
